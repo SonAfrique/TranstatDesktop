@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="mtracking"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\Detector\;CMake Files\src\Detector\darknet\;CMake Files\src\Detector\darknet\cmake\;CMake Files\src\Detector\tensorrt_yolo\;CMake Files\src\Detector\tensorrt_yolo\cmake\;CMake Files\src\Tracker\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Sql\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Charts\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5PrintSupport\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\gflags\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/vt/projects/transtatDesktop/cmake-build-debug/src/Tracker"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Tracker/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Tracker/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Tracker/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Tracker/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mtracking">
+				<Option output="/home/vt/projects/transtatDesktop/build/libmtracking.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vt/projects/transtatDesktop/cmake-build-debug/src/Tracker"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBUILD_YOLO_LIB"/>
+					<Add option="-DBUILD_YOLO_TENSORRT"/>
+					<Add option="-DUSE_STAPLE_TRACKER"/>
+					<Add directory="/home/vt/projects/transtatDesktop/cmake-build-debug/src/Tracker"/>
+					<Add directory="/home/vt/projects/transtatDesktop/src/Tracker"/>
+					<Add directory="/home/vt/projects/transtatDesktop/cmake-build-debug/src/Tracker/mtracking_autogen/include"/>
+					<Add directory="/home/vt/projects/transtatDesktop/src/Tracker/../src"/>
+					<Add directory="/home/vt/projects/transtatDesktop/src/Tracker/../common"/>
+					<Add directory="/home/vt/projects/transtatDesktop/src/Tracker/graph"/>
+					<Add directory="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/include"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Tracker/Makefile&quot;  VERBOSE=1 mtracking"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Tracker/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Tracker/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Tracker/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mtracking/fast">
+				<Option output="/home/vt/projects/transtatDesktop/build/libmtracking.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vt/projects/transtatDesktop/cmake-build-debug/src/Tracker"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBUILD_YOLO_LIB"/>
+					<Add option="-DBUILD_YOLO_TENSORRT"/>
+					<Add option="-DUSE_STAPLE_TRACKER"/>
+					<Add directory="/home/vt/projects/transtatDesktop/cmake-build-debug/src/Tracker"/>
+					<Add directory="/home/vt/projects/transtatDesktop/src/Tracker"/>
+					<Add directory="/home/vt/projects/transtatDesktop/cmake-build-debug/src/Tracker/mtracking_autogen/include"/>
+					<Add directory="/home/vt/projects/transtatDesktop/src/Tracker/../src"/>
+					<Add directory="/home/vt/projects/transtatDesktop/src/Tracker/../common"/>
+					<Add directory="/home/vt/projects/transtatDesktop/src/Tracker/graph"/>
+					<Add directory="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/include"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Tracker/Makefile&quot;  VERBOSE=1 mtracking/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Tracker/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Tracker/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Tracker/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mtracking_autogen">
+				<Option working_dir="/home/vt/projects/transtatDesktop/cmake-build-debug/src/Tracker"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Tracker/Makefile&quot;  VERBOSE=1 mtracking_autogen"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Tracker/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Tracker/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Tracker/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/vt/projects/transtatDesktop/cmake-build-debug/src/Tracker/mtracking_autogen/mocs_compilation.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/Ctracker.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/Ctracker.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/HungarianAlg/HungarianAlg.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/HungarianAlg/HungarianAlg.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/Kalman.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/Kalman.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/ShortPathCalculator.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/ShortPathCalculator.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/VOTTracker.hpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/dat/dat_tracker.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/dat/dat_tracker.hpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/include/GTL/GTL.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/include/GTL/algorithm.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/include/GTL/bellman_ford.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/include/GTL/bfs.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/include/GTL/biconnectivity.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/include/GTL/bid_dijkstra.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/include/GTL/bin_heap.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/include/GTL/components.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/include/GTL/debug.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/include/GTL/dfs.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/include/GTL/dijkstra.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/include/GTL/edge.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/include/GTL/edge_data.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/include/GTL/edge_map.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/include/GTL/embedding.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/include/GTL/fm_partition.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/include/GTL/gml_parser.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/include/GTL/gml_scanner.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/include/GTL/graph.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/include/GTL/maxflow_ff.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/include/GTL/maxflow_pp.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/include/GTL/maxflow_sap.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/include/GTL/min_tree.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/include/GTL/ne_map.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/include/GTL/node.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/include/GTL/node_data.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/include/GTL/node_map.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/include/GTL/planarity.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/include/GTL/pq_node.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/include/GTL/pq_tree.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/include/GTL/ratio_cut_partition.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/include/GTL/st_number.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/include/GTL/symlist.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/include/GTL/topsort.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/include/GTL/version.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/src/bellman_ford.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/src/bfs.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/src/biconnectivity.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/src/bid_dijkstra.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/src/components.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/src/debug.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/src/dfs.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/src/dijkstra.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/src/edge.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/src/embedding.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/src/fm_partition.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/src/gml_parser.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/src/gml_scanner.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/src/graph.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/src/maxflow_ff.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/src/maxflow_pp.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/src/maxflow_sap.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/src/min_tree.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/src/node.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/src/planarity.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/src/pq_node.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/src/pq_tree.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/src/ratio_cut_partition.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/src/st_number.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/src/topsort.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/fheap.c">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/fheap.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/gdefs.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/gport.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/gport.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/mincut.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/mincut.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/mwbmatching.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/mwbmatching.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/mygraph.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/mygraph.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/mytree.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/mytree.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/tokenise.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/tokenise.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/ldes/correlation.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/ldes/correlation.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/ldes/fft_functions.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/ldes/fft_functions.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/ldes/fhog.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/ldes/fhog.hpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/ldes/hann.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/ldes/hann.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/ldes/ldes_tracker.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/ldes/ldes_tracker.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/staple/fhog.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/staple/fhog.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/staple/sse.hpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/staple/staple_tracker.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/staple/staple_tracker.hpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/track.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/track.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/common/defines.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/common/nms.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/icons.qrc">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/support_images.qrc">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\Detector\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\Detector\darknet\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/cmake/FindCUDNN.cmake">
+			<Option virtualFolder="CMake Files\src\Detector\darknet\cmake\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/tensorrt_yolo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\Detector\tensorrt_yolo\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/tensorrt_yolo/cmake/FindCUDNN.cmake">
+			<Option virtualFolder="CMake Files\src\Detector\tensorrt_yolo\cmake\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/tensorrt_yolo/cmake/FindTensorRT.cmake">
+			<Option virtualFolder="CMake Files\src\Detector\tensorrt_yolo\cmake\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\Tracker\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ModuleLocation.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Sql/Qt5SqlConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Sql\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Sql/Qt5SqlConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Sql\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Charts/Qt5ChartsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Charts\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Charts/Qt5ChartsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Charts\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5PrintSupport/Qt5PrintSupportConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5PrintSupport\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5PrintSupport/Qt5PrintSupportConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5PrintSupport\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/lib/x86_64-linux-gnu/cmake/gflags/gflags-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\gflags\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/lib/x86_64-linux-gnu/cmake/gflags/gflags-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\gflags\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/lib/x86_64-linux-gnu/cmake/gflags/gflags-targets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\gflags\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/lib/x86_64-linux-gnu/cmake/gflags/gflags-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\gflags\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/local/lib/cmake/opencv4/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/local/lib/cmake/opencv4/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/local/lib/cmake/opencv4/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/local/lib/cmake/opencv4/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

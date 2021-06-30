@@ -1,0 +1,8 @@
+build
+CMakeLists.txt.user*
+CMakeFiles
+CMakeCache.txt
+*.mp4
+*.avi
+*.weights
+*.engine

@@ -1,0 +1,46 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resources/icons/documentation.png</file>
+        <file>resources/icons/graph.png</file>
+        <file>resources/icons/help.png</file>
+        <file>resources/icons/report.png</file>
+        <file>resources/icons/users.png</file>
+        <file>resources/icons/video.png</file>
+        <file>resources/icons/home-4-xxl.png</file>
+        <file>resources/icons/vehicle.png</file>
+        <file>resources/icons/logout-xl.png</file>
+        <file>resources/icons/profile.png</file>
+        <file>resources/icons/lights.png</file>
+        <file>resources/icons/ped.png</file>
+        <file>resources/video_icons/Aqua-Next-icon.png</file>
+        <file>resources/video_icons/Aqua-Pause-icon.png</file>
+        <file>resources/video_icons/Aqua-Play-icon.png</file>
+        <file>resources/video_icons/Aqua-Previous-icon.png</file>
+        <file>resources/video_icons/Aqua-Stop-icon.png</file>
+        <file>resources/video_icons/LH1-Pause-icon.png</file>
+        <file>resources/video_icons/LH1-Standby-icon.png</file>
+        <file>resources/video_icons/LH1-Stop-icon.png</file>
+        <file>resources/video_icons/LH1-Stop-icon (1).png</file>
+        <file>resources/video_icons/LH2-Config-icon.png</file>
+        <file>resources/video_icons/LH2-Pause-icon.png</file>
+        <file>resources/video_icons/LH2-Play-icon.png</file>
+        <file>resources/video_icons/LH2-Previous-icon.png</file>
+        <file>resources/video_icons/LH2-Standby-icon.png</file>
+        <file>resources/video_icons/rewind.png</file>
+        <file>resources/video_icons/stop.png</file>
+        <file>resources/icons/add_counter.png</file>
+        <file>resources/icons/close_view.png</file>
+        <file>resources/icons/draw.png</file>
+        <file>resources/icons/draw_on_image.png</file>
+        <file>resources/icons/pen_draw.png</file>
+        <file>resources/icons/view.png</file>
+        <file>resources/icons/eye_2.png</file>
+        <file>resources/icons/eye_2_cancel.png</file>
+        <file>resources/icons/bus_count.png</file>
+        <file>resources/icons/car_count.png</file>
+        <file>resources/icons/car_count_2.png</file>
+        <file>resources/icons/motorcycle_count.png</file>
+        <file>resources/icons/pedestrian_count.png</file>
+        <file>resources/icons/truck_count.png</file>
+    </qresource>
+</RCC>

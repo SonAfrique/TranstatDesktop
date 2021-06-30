@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resources/images/ped_analysis.jpg</file>
+        <file>resources/images/pedestrian.jpg</file>
+        <file>resources/images/traffic_light.jpg</file>
+        <file>resources/images/traffic_light_2.jpg</file>
+        <file>resources/images/vector-outline-drawing-casual-city-pedestrians-walking-along-street-172365754.jpg</file>
+        <file>resources/images/vehicles.jpg</file>
+        <file>resources/images/vehicles.png</file>
+        <file>resources/images/vehicles_2.jpg</file>
+    </qresource>
+</RCC>

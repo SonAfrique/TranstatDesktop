@@ -1,0 +1,1666 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="transtatDesktop"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\Detector\;CMake Files\src\Detector\darknet\;CMake Files\src\Detector\darknet\cmake\;CMake Files\src\Detector\tensorrt_yolo\;CMake Files\src\Detector\tensorrt_yolo\cmake\;CMake Files\src\Tracker\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Sql\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Charts\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5PrintSupport\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\gflags\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/vt/projects/transtatDesktop/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/vt/projects/transtatDesktop/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/vt/projects/transtatDesktop/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="transtatDesktop">
+				<Option output="/home/vt/projects/transtatDesktop/build/transtatDesktop" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vt/projects/transtatDesktop/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBUILD_YOLO_LIB"/>
+					<Add option="-DBUILD_YOLO_TENSORRT"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_SQL_LIB"/>
+					<Add option="-DQT_PRINTSUPPORT_LIB"/>
+					<Add option="-DQT_CHARTS_LIB"/>
+					<Add option="-DGFLAGS_IS_A_DLL=0"/>
+					<Add directory="/home/vt/projects/transtatDesktop/cmake-build-debug"/>
+					<Add directory="/home/vt/projects/transtatDesktop"/>
+					<Add directory="/home/vt/projects/transtatDesktop/cmake-build-debug/transtatDesktop_autogen/include"/>
+					<Add directory="/home/vt/projects/transtatDesktop/../src"/>
+					<Add directory="/home/vt/projects/transtatDesktop/../src/common"/>
+					<Add directory="/home/vt/projects/transtatDesktop/../src/Detector"/>
+					<Add directory="/home/vt/projects/transtatDesktop/../src/Detector/vibe_src"/>
+					<Add directory="/home/vt/projects/transtatDesktop/../src/Detector/Subsense"/>
+					<Add directory="/home/vt/projects/transtatDesktop/../src/Tracker"/>
+					<Add directory="/home/vt/projects/transtatDesktop/../src/Tracker/HungarianAlg"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtSql"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCharts"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/Makefile&quot;  VERBOSE=1 transtatDesktop"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="transtatDesktop/fast">
+				<Option output="/home/vt/projects/transtatDesktop/build/transtatDesktop" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vt/projects/transtatDesktop/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBUILD_YOLO_LIB"/>
+					<Add option="-DBUILD_YOLO_TENSORRT"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_SQL_LIB"/>
+					<Add option="-DQT_PRINTSUPPORT_LIB"/>
+					<Add option="-DQT_CHARTS_LIB"/>
+					<Add option="-DGFLAGS_IS_A_DLL=0"/>
+					<Add directory="/home/vt/projects/transtatDesktop/cmake-build-debug"/>
+					<Add directory="/home/vt/projects/transtatDesktop"/>
+					<Add directory="/home/vt/projects/transtatDesktop/cmake-build-debug/transtatDesktop_autogen/include"/>
+					<Add directory="/home/vt/projects/transtatDesktop/../src"/>
+					<Add directory="/home/vt/projects/transtatDesktop/../src/common"/>
+					<Add directory="/home/vt/projects/transtatDesktop/../src/Detector"/>
+					<Add directory="/home/vt/projects/transtatDesktop/../src/Detector/vibe_src"/>
+					<Add directory="/home/vt/projects/transtatDesktop/../src/Detector/Subsense"/>
+					<Add directory="/home/vt/projects/transtatDesktop/../src/Tracker"/>
+					<Add directory="/home/vt/projects/transtatDesktop/../src/Tracker/HungarianAlg"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtSql"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCharts"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/Makefile&quot;  VERBOSE=1 transtatDesktop/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="transtatDesktop_autogen">
+				<Option working_dir="/home/vt/projects/transtatDesktop/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/Makefile&quot;  VERBOSE=1 transtatDesktop_autogen"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="yolo_lib">
+				<Option output="/home/vt/projects/transtatDesktop/build/libyolo_lib.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/darknet"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DYOLO_DETECTOR_EXPORTS"/>
+					<Add option="-DLIB_EXPORTS"/>
+					<Add option="-DGPU"/>
+					<Add option="-DCUDNN"/>
+					<Add directory="/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/darknet"/>
+					<Add directory="/home/vt/projects/transtatDesktop/src/Detector/darknet"/>
+					<Add directory="/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/darknet/yolo_lib_autogen/include"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/home/vt/projects/transtatDesktop/src/Detector/darknet/include"/>
+					<Add directory="/home/vt/projects/transtatDesktop/src/Detector/darknet/3rdparty/stb/include"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/darknet/Makefile&quot;  VERBOSE=1 yolo_lib"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/darknet/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/darknet/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/darknet/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="yolo_lib/fast">
+				<Option output="/home/vt/projects/transtatDesktop/build/libyolo_lib.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/darknet"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DYOLO_DETECTOR_EXPORTS"/>
+					<Add option="-DLIB_EXPORTS"/>
+					<Add option="-DGPU"/>
+					<Add option="-DCUDNN"/>
+					<Add directory="/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/darknet"/>
+					<Add directory="/home/vt/projects/transtatDesktop/src/Detector/darknet"/>
+					<Add directory="/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/darknet/yolo_lib_autogen/include"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/home/vt/projects/transtatDesktop/src/Detector/darknet/include"/>
+					<Add directory="/home/vt/projects/transtatDesktop/src/Detector/darknet/3rdparty/stb/include"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/darknet/Makefile&quot;  VERBOSE=1 yolo_lib/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/darknet/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/darknet/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/darknet/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="yolo_lib_autogen">
+				<Option working_dir="/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/darknet"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/darknet/Makefile&quot;  VERBOSE=1 yolo_lib_autogen"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/darknet/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/darknet/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/darknet/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="yolo_rt_lib">
+				<Option output="/home/vt/projects/transtatDesktop/build/libyolo_rt_lib.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/tensorrt_yolo"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBUILD_YOLO_LIB"/>
+					<Add option="-DGFLAGS_IS_A_DLL=0"/>
+					<Add directory="/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/tensorrt_yolo"/>
+					<Add directory="/home/vt/projects/transtatDesktop/src/Detector/tensorrt_yolo"/>
+					<Add directory="/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/tensorrt_yolo/yolo_rt_lib_autogen/include"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/tensorrt_yolo/Makefile&quot;  VERBOSE=1 yolo_rt_lib"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/tensorrt_yolo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/tensorrt_yolo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/tensorrt_yolo/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="yolo_rt_lib/fast">
+				<Option output="/home/vt/projects/transtatDesktop/build/libyolo_rt_lib.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/tensorrt_yolo"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBUILD_YOLO_LIB"/>
+					<Add option="-DGFLAGS_IS_A_DLL=0"/>
+					<Add directory="/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/tensorrt_yolo"/>
+					<Add directory="/home/vt/projects/transtatDesktop/src/Detector/tensorrt_yolo"/>
+					<Add directory="/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/tensorrt_yolo/yolo_rt_lib_autogen/include"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/tensorrt_yolo/Makefile&quot;  VERBOSE=1 yolo_rt_lib/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/tensorrt_yolo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/tensorrt_yolo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/tensorrt_yolo/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="yolo_rt_lib_autogen">
+				<Option working_dir="/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/tensorrt_yolo"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/tensorrt_yolo/Makefile&quot;  VERBOSE=1 yolo_rt_lib_autogen"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/tensorrt_yolo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/tensorrt_yolo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/tensorrt_yolo/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mdetection">
+				<Option output="/home/vt/projects/transtatDesktop/build/libmdetection.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBUILD_YOLO_LIB"/>
+					<Add option="-DBUILD_YOLO_TENSORRT"/>
+					<Add option="-DGFLAGS_IS_A_DLL=0"/>
+					<Add directory="/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector"/>
+					<Add directory="/home/vt/projects/transtatDesktop/src/Detector"/>
+					<Add directory="/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/mdetection_autogen/include"/>
+					<Add directory="/home/vt/projects/transtatDesktop/src/Detector/../src"/>
+					<Add directory="/home/vt/projects/transtatDesktop/src/Detector/../common"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/Makefile&quot;  VERBOSE=1 mdetection"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mdetection/fast">
+				<Option output="/home/vt/projects/transtatDesktop/build/libmdetection.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBUILD_YOLO_LIB"/>
+					<Add option="-DBUILD_YOLO_TENSORRT"/>
+					<Add option="-DGFLAGS_IS_A_DLL=0"/>
+					<Add directory="/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector"/>
+					<Add directory="/home/vt/projects/transtatDesktop/src/Detector"/>
+					<Add directory="/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/mdetection_autogen/include"/>
+					<Add directory="/home/vt/projects/transtatDesktop/src/Detector/../src"/>
+					<Add directory="/home/vt/projects/transtatDesktop/src/Detector/../common"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/Makefile&quot;  VERBOSE=1 mdetection/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mdetection_autogen">
+				<Option working_dir="/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/Makefile&quot;  VERBOSE=1 mdetection_autogen"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mtracking">
+				<Option output="/home/vt/projects/transtatDesktop/build/libmtracking.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vt/projects/transtatDesktop/cmake-build-debug/src/Tracker"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBUILD_YOLO_LIB"/>
+					<Add option="-DBUILD_YOLO_TENSORRT"/>
+					<Add option="-DUSE_STAPLE_TRACKER"/>
+					<Add directory="/home/vt/projects/transtatDesktop/cmake-build-debug/src/Tracker"/>
+					<Add directory="/home/vt/projects/transtatDesktop/src/Tracker"/>
+					<Add directory="/home/vt/projects/transtatDesktop/cmake-build-debug/src/Tracker/mtracking_autogen/include"/>
+					<Add directory="/home/vt/projects/transtatDesktop/src/Tracker/../src"/>
+					<Add directory="/home/vt/projects/transtatDesktop/src/Tracker/../common"/>
+					<Add directory="/home/vt/projects/transtatDesktop/src/Tracker/graph"/>
+					<Add directory="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/include"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Tracker/Makefile&quot;  VERBOSE=1 mtracking"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Tracker/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Tracker/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Tracker/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mtracking/fast">
+				<Option output="/home/vt/projects/transtatDesktop/build/libmtracking.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vt/projects/transtatDesktop/cmake-build-debug/src/Tracker"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBUILD_YOLO_LIB"/>
+					<Add option="-DBUILD_YOLO_TENSORRT"/>
+					<Add option="-DUSE_STAPLE_TRACKER"/>
+					<Add directory="/home/vt/projects/transtatDesktop/cmake-build-debug/src/Tracker"/>
+					<Add directory="/home/vt/projects/transtatDesktop/src/Tracker"/>
+					<Add directory="/home/vt/projects/transtatDesktop/cmake-build-debug/src/Tracker/mtracking_autogen/include"/>
+					<Add directory="/home/vt/projects/transtatDesktop/src/Tracker/../src"/>
+					<Add directory="/home/vt/projects/transtatDesktop/src/Tracker/../common"/>
+					<Add directory="/home/vt/projects/transtatDesktop/src/Tracker/graph"/>
+					<Add directory="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/include"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Tracker/Makefile&quot;  VERBOSE=1 mtracking/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Tracker/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Tracker/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Tracker/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mtracking_autogen">
+				<Option working_dir="/home/vt/projects/transtatDesktop/cmake-build-debug/src/Tracker"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Tracker/Makefile&quot;  VERBOSE=1 mtracking_autogen"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Tracker/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Tracker/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Tracker/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/vt/projects/transtatDesktop/addcounter.cpp">
+			<Option target="transtatDesktop"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/addcounter.h">
+			<Option target="transtatDesktop"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/addcounter.ui">
+			<Option target="transtatDesktop"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/analysisid.cpp">
+			<Option target="transtatDesktop"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/analysisid.h">
+			<Option target="transtatDesktop"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/analysisid.ui">
+			<Option target="transtatDesktop"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/darknet/CMakeFiles/yolo_lib.dir/src/yolo_lib_generated_activation_kernels.cu.o">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/darknet/CMakeFiles/yolo_lib.dir/src/yolo_lib_generated_avgpool_layer_kernels.cu.o">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/darknet/CMakeFiles/yolo_lib.dir/src/yolo_lib_generated_blas_kernels.cu.o">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/darknet/CMakeFiles/yolo_lib.dir/src/yolo_lib_generated_col2im_kernels.cu.o">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/darknet/CMakeFiles/yolo_lib.dir/src/yolo_lib_generated_convolutional_kernels.cu.o">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/darknet/CMakeFiles/yolo_lib.dir/src/yolo_lib_generated_crop_layer_kernels.cu.o">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/darknet/CMakeFiles/yolo_lib.dir/src/yolo_lib_generated_deconvolutional_kernels.cu.o">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/darknet/CMakeFiles/yolo_lib.dir/src/yolo_lib_generated_dropout_layer_kernels.cu.o">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/darknet/CMakeFiles/yolo_lib.dir/src/yolo_lib_generated_im2col_kernels.cu.o">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/darknet/CMakeFiles/yolo_lib.dir/src/yolo_lib_generated_maxpool_layer_kernels.cu.o">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/darknet/CMakeFiles/yolo_lib.dir/src/yolo_lib_generated_network_kernels.cu.o">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/darknet/CMakeFiles/yolo_lib.dir/yolo_lib_intermediate_link.o">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/darknet/CMakeFiles/yolo_lib.dir/yolo_lib_intermediate_link.o.rule">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/darknet/yolo_lib_autogen/mocs_compilation.cpp">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/mdetection_autogen/mocs_compilation.cpp">
+			<Option target="mdetection"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/tensorrt_yolo/CMakeFiles/yolo_rt_lib.dir/yolo_rt_lib_generated_chunk.cu.o">
+			<Option target="yolo_rt_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/tensorrt_yolo/CMakeFiles/yolo_rt_lib.dir/yolo_rt_lib_generated_kernel.cu.o">
+			<Option target="yolo_rt_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/tensorrt_yolo/CMakeFiles/yolo_rt_lib.dir/yolo_rt_lib_generated_mish.cu.o">
+			<Option target="yolo_rt_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/tensorrt_yolo/CMakeFiles/yolo_rt_lib.dir/yolo_rt_lib_intermediate_link.o">
+			<Option target="yolo_rt_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/tensorrt_yolo/CMakeFiles/yolo_rt_lib.dir/yolo_rt_lib_intermediate_link.o.rule">
+			<Option target="yolo_rt_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/tensorrt_yolo/yolo_rt_lib_autogen/mocs_compilation.cpp">
+			<Option target="yolo_rt_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/cmake-build-debug/src/Tracker/mtracking_autogen/mocs_compilation.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/cmake-build-debug/transtatDesktop_autogen/EWIEGA46WW/qrc_icons.cpp">
+			<Option target="transtatDesktop"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/cmake-build-debug/transtatDesktop_autogen/EWIEGA46WW/qrc_icons.cpp.rule">
+			<Option target="transtatDesktop"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/cmake-build-debug/transtatDesktop_autogen/EWIEGA46WW/qrc_support_images.cpp">
+			<Option target="transtatDesktop"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/cmake-build-debug/transtatDesktop_autogen/EWIEGA46WW/qrc_support_images.cpp.rule">
+			<Option target="transtatDesktop"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/cmake-build-debug/transtatDesktop_autogen/mocs_compilation.cpp">
+			<Option target="transtatDesktop"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/cvutilities.cpp">
+			<Option target="transtatDesktop"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/cvutilities.h">
+			<Option target="transtatDesktop"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/dbconnection.cpp">
+			<Option target="transtatDesktop"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/dbconnection.h">
+			<Option target="transtatDesktop"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/debugger.h">
+			<Option target="transtatDesktop"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/detector.cpp">
+			<Option target="transtatDesktop"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/detector.h">
+			<Option target="transtatDesktop"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/drawcounter.cpp">
+			<Option target="transtatDesktop"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/drawcounter.h">
+			<Option target="transtatDesktop"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/drawcounter.ui">
+			<Option target="transtatDesktop"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/icons.qrc">
+			<Option target="transtatDesktop"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/magnifyvisuals.cpp">
+			<Option target="transtatDesktop"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/magnifyvisuals.h">
+			<Option target="transtatDesktop"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/magnifyvisuals.ui">
+			<Option target="transtatDesktop"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/main.cpp">
+			<Option target="transtatDesktop"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/mainwindow.cpp">
+			<Option target="transtatDesktop"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/mainwindow.h">
+			<Option target="transtatDesktop"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/mainwindow.ui">
+			<Option target="transtatDesktop"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/opencvviewer.cpp">
+			<Option target="transtatDesktop"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/opencvviewer.h">
+			<Option target="transtatDesktop"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/player.cpp">
+			<Option target="transtatDesktop"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/player.h">
+			<Option target="transtatDesktop"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/BackgroundSubtract.cpp">
+			<Option target="mdetection"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/BackgroundSubtract.h">
+			<Option target="mdetection"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/BaseDetector.cpp">
+			<Option target="mdetection"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/BaseDetector.h">
+			<Option target="mdetection"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/FaceDetector.cpp">
+			<Option target="mdetection"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/FaceDetector.h">
+			<Option target="mdetection"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/MotionDetector.cpp">
+			<Option target="mdetection"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/MotionDetector.h">
+			<Option target="mdetection"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/OCVDNNDetector.cpp">
+			<Option target="mdetection"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/OCVDNNDetector.h">
+			<Option target="mdetection"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/PedestrianDetector.cpp">
+			<Option target="mdetection"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/PedestrianDetector.h">
+			<Option target="mdetection"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/SSDMobileNetDetector.cpp">
+			<Option target="mdetection"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/SSDMobileNetDetector.h">
+			<Option target="mdetection"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/Subsense/BackgroundSubtractorLBSP.cpp">
+			<Option target="mdetection"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/Subsense/BackgroundSubtractorLBSP.h">
+			<Option target="mdetection"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/Subsense/BackgroundSubtractorLOBSTER.cpp">
+			<Option target="mdetection"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/Subsense/BackgroundSubtractorLOBSTER.h">
+			<Option target="mdetection"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/Subsense/BackgroundSubtractorSuBSENSE.cpp">
+			<Option target="mdetection"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/Subsense/BackgroundSubtractorSuBSENSE.h">
+			<Option target="mdetection"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/Subsense/DistanceUtils.h">
+			<Option target="mdetection"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/Subsense/LBSP.cpp">
+			<Option target="mdetection"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/Subsense/LBSP.h">
+			<Option target="mdetection"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/Subsense/RandUtils.h">
+			<Option target="mdetection"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/YoloDarknetDetector.cpp">
+			<Option target="mdetection"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/YoloDarknetDetector.h">
+			<Option target="mdetection"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/YoloDetector.cpp">
+			<Option target="mdetection"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/YoloDetector.h">
+			<Option target="mdetection"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/YoloTensorRTDetector.cpp">
+			<Option target="mdetection"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/YoloTensorRTDetector.h">
+			<Option target="mdetection"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/include/darknet.h">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/include/yolo_v2_class.hpp">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/activation_kernels.cu">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/activation_layer.c">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/activation_layer.h">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/activations.c">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/activations.h">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/art.c">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/avgpool_layer.c">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/avgpool_layer.h">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/avgpool_layer_kernels.cu">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/batchnorm_layer.c">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/batchnorm_layer.h">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/blas.c">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/blas.h">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/blas_kernels.cu">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/box.c">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/box.h">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/captcha.c">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/cifar.c">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/classifier.c">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/classifier.h">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/coco.c">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/col2im.c">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/col2im.h">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/col2im_kernels.cu">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/compare.c">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/connected_layer.c">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/connected_layer.h">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/conv_lstm_layer.c">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/conv_lstm_layer.h">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/convolutional_kernels.cu">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/convolutional_layer.c">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/convolutional_layer.h">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/cost_layer.c">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/cost_layer.h">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/cpu_gemm.c">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/crnn_layer.c">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/crnn_layer.h">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/crop_layer.c">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/crop_layer.h">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/crop_layer_kernels.cu">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/dark_cuda.c">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/dark_cuda.h">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/darknet.c">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/darkunistd.h">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/data.c">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/data.h">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/deconvolutional_kernels.cu">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/deconvolutional_layer.c">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/deconvolutional_layer.h">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/demo.c">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/demo.h">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/detection_layer.c">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/detection_layer.h">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/detector.c">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/dice.c">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/dropout_layer.c">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/dropout_layer.h">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/dropout_layer_kernels.cu">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/gaussian_yolo_layer.c">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/gaussian_yolo_layer.h">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/gemm.c">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/gemm.h">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/getopt.c">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/getopt.h">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/gettimeofday.c">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/gettimeofday.h">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/go.c">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/gru_layer.c">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/gru_layer.h">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/http_stream.cpp">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/http_stream.h">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/httplib.h">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/im2col.c">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/im2col.h">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/im2col_kernels.cu">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/image.c">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/image.h">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/image_opencv.cpp">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/image_opencv.h">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/layer.c">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/layer.h">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/list.c">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/list.h">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/local_layer.c">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/local_layer.h">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/lstm_layer.c">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/lstm_layer.h">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/matrix.c">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/matrix.h">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/maxpool_layer.c">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/maxpool_layer.h">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/maxpool_layer_kernels.cu">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/network.c">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/network.h">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/network_kernels.cu">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/nightmare.c">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/normalization_layer.c">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/normalization_layer.h">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/option_list.c">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/option_list.h">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/parser.c">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/parser.h">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/region_layer.c">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/region_layer.h">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/reorg_layer.c">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/reorg_layer.h">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/reorg_old_layer.c">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/reorg_old_layer.h">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/rnn.c">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/rnn_layer.c">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/rnn_layer.h">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/rnn_vid.c">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/route_layer.c">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/route_layer.h">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/sam_layer.c">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/sam_layer.h">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/scale_channels_layer.c">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/scale_channels_layer.h">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/shortcut_layer.c">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/shortcut_layer.h">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/softmax_layer.c">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/softmax_layer.h">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/super.c">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/swag.c">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/tag.c">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/tree.c">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/tree.h">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/upsample_layer.c">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/upsample_layer.h">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/utils.c">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/utils.h">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/version.h">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/voxel.c">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/writing.c">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/yolo.c">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/yolo_layer.c">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/yolo_layer.h">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/src/yolo_v2_class.cpp">
+			<Option target="yolo_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/pedestrians/c4-pedestrian-detector.cpp">
+			<Option target="mdetection"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/pedestrians/c4-pedestrian-detector.h">
+			<Option target="mdetection"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/tensorrt_yolo/API.h">
+			<Option target="yolo_rt_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/tensorrt_yolo/calibrator.cpp">
+			<Option target="yolo_rt_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/tensorrt_yolo/calibrator.h">
+			<Option target="yolo_rt_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/tensorrt_yolo/chunk.cu">
+			<Option target="yolo_rt_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/tensorrt_yolo/chunk.h">
+			<Option target="yolo_rt_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/tensorrt_yolo/class_detector.cpp">
+			<Option target="yolo_rt_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/tensorrt_yolo/class_detector.h">
+			<Option target="yolo_rt_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/tensorrt_yolo/ds_image.cpp">
+			<Option target="yolo_rt_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/tensorrt_yolo/ds_image.h">
+			<Option target="yolo_rt_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/tensorrt_yolo/kernel.cu">
+			<Option target="yolo_rt_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/tensorrt_yolo/logging.h">
+			<Option target="yolo_rt_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/tensorrt_yolo/mish.cu">
+			<Option target="yolo_rt_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/tensorrt_yolo/mish.h">
+			<Option target="yolo_rt_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/tensorrt_yolo/plugin_factory.cpp">
+			<Option target="yolo_rt_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/tensorrt_yolo/plugin_factory.h">
+			<Option target="yolo_rt_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/tensorrt_yolo/trt_utils.cpp">
+			<Option target="yolo_rt_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/tensorrt_yolo/trt_utils.h">
+			<Option target="yolo_rt_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/tensorrt_yolo/yolo.cpp">
+			<Option target="yolo_rt_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/tensorrt_yolo/yolo.h">
+			<Option target="yolo_rt_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/tensorrt_yolo/yolo_config_parser.cpp">
+			<Option target="yolo_rt_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/tensorrt_yolo/yolo_config_parser.h">
+			<Option target="yolo_rt_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/tensorrt_yolo/yoloplugin_lib.cpp">
+			<Option target="yolo_rt_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/tensorrt_yolo/yoloplugin_lib.h">
+			<Option target="yolo_rt_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/tensorrt_yolo/yolov2.cpp">
+			<Option target="yolo_rt_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/tensorrt_yolo/yolov2.h">
+			<Option target="yolo_rt_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/tensorrt_yolo/yolov3.cpp">
+			<Option target="yolo_rt_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/tensorrt_yolo/yolov3.h">
+			<Option target="yolo_rt_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/tensorrt_yolo/yolov4.cpp">
+			<Option target="yolo_rt_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/tensorrt_yolo/yolov4.h">
+			<Option target="yolo_rt_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/vibe_src/vibe.cpp">
+			<Option target="mdetection"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/vibe_src/vibe.hpp">
+			<Option target="mdetection"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/Ctracker.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/Ctracker.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/HungarianAlg/HungarianAlg.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/HungarianAlg/HungarianAlg.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/Kalman.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/Kalman.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/ShortPathCalculator.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/ShortPathCalculator.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/VOTTracker.hpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/dat/dat_tracker.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/dat/dat_tracker.hpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/include/GTL/GTL.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/include/GTL/algorithm.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/include/GTL/bellman_ford.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/include/GTL/bfs.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/include/GTL/biconnectivity.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/include/GTL/bid_dijkstra.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/include/GTL/bin_heap.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/include/GTL/components.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/include/GTL/debug.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/include/GTL/dfs.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/include/GTL/dijkstra.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/include/GTL/edge.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/include/GTL/edge_data.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/include/GTL/edge_map.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/include/GTL/embedding.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/include/GTL/fm_partition.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/include/GTL/gml_parser.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/include/GTL/gml_scanner.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/include/GTL/graph.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/include/GTL/maxflow_ff.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/include/GTL/maxflow_pp.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/include/GTL/maxflow_sap.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/include/GTL/min_tree.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/include/GTL/ne_map.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/include/GTL/node.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/include/GTL/node_data.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/include/GTL/node_map.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/include/GTL/planarity.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/include/GTL/pq_node.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/include/GTL/pq_tree.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/include/GTL/ratio_cut_partition.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/include/GTL/st_number.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/include/GTL/symlist.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/include/GTL/topsort.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/include/GTL/version.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/src/bellman_ford.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/src/bfs.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/src/biconnectivity.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/src/bid_dijkstra.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/src/components.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/src/debug.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/src/dfs.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/src/dijkstra.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/src/edge.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/src/embedding.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/src/fm_partition.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/src/gml_parser.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/src/gml_scanner.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/src/graph.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/src/maxflow_ff.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/src/maxflow_pp.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/src/maxflow_sap.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/src/min_tree.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/src/node.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/src/planarity.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/src/pq_node.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/src/pq_tree.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/src/ratio_cut_partition.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/src/st_number.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/GTL/src/topsort.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/fheap.c">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/fheap.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/gdefs.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/gport.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/gport.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/mincut.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/mincut.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/mwbmatching.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/mwbmatching.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/mygraph.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/mygraph.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/mytree.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/mytree.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/tokenise.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/graph/tokenise.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/ldes/correlation.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/ldes/correlation.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/ldes/fft_functions.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/ldes/fft_functions.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/ldes/fhog.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/ldes/fhog.hpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/ldes/hann.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/ldes/hann.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/ldes/ldes_tracker.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/ldes/ldes_tracker.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/staple/fhog.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/staple/fhog.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/staple/sse.hpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/staple/staple_tracker.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/staple/staple_tracker.hpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/track.cpp">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/track.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/common/defines.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/common/nms.h">
+			<Option target="mtracking"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/support_images.qrc">
+			<Option target="transtatDesktop"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/icons.qrc">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/support_images.qrc">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\Detector\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\Detector\darknet\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/cmake/FindCUDNN.cmake">
+			<Option virtualFolder="CMake Files\src\Detector\darknet\cmake\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/tensorrt_yolo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\Detector\tensorrt_yolo\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/tensorrt_yolo/cmake/FindCUDNN.cmake">
+			<Option virtualFolder="CMake Files\src\Detector\tensorrt_yolo\cmake\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/tensorrt_yolo/cmake/FindTensorRT.cmake">
+			<Option virtualFolder="CMake Files\src\Detector\tensorrt_yolo\cmake\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\Tracker\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ModuleLocation.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Sql/Qt5SqlConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Sql\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Sql/Qt5SqlConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Sql\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Charts/Qt5ChartsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Charts\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Charts/Qt5ChartsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Charts\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5PrintSupport/Qt5PrintSupportConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5PrintSupport\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5PrintSupport/Qt5PrintSupportConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5PrintSupport\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/lib/x86_64-linux-gnu/cmake/gflags/gflags-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\gflags\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/lib/x86_64-linux-gnu/cmake/gflags/gflags-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\gflags\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/lib/x86_64-linux-gnu/cmake/gflags/gflags-targets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\gflags\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/lib/x86_64-linux-gnu/cmake/gflags/gflags-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\gflags\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/local/lib/cmake/opencv4/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/local/lib/cmake/opencv4/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/local/lib/cmake/opencv4/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/local/lib/cmake/opencv4/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="yolo_rt_lib"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\Detector\;CMake Files\src\Detector\darknet\;CMake Files\src\Detector\darknet\cmake\;CMake Files\src\Detector\tensorrt_yolo\;CMake Files\src\Detector\tensorrt_yolo\cmake\;CMake Files\src\Tracker\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Sql\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Charts\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5PrintSupport\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\gflags\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/tensorrt_yolo"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/tensorrt_yolo/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/tensorrt_yolo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/tensorrt_yolo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/tensorrt_yolo/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="yolo_rt_lib">
+				<Option output="/home/vt/projects/transtatDesktop/build/libyolo_rt_lib.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/tensorrt_yolo"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBUILD_YOLO_LIB"/>
+					<Add option="-DGFLAGS_IS_A_DLL=0"/>
+					<Add directory="/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/tensorrt_yolo"/>
+					<Add directory="/home/vt/projects/transtatDesktop/src/Detector/tensorrt_yolo"/>
+					<Add directory="/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/tensorrt_yolo/yolo_rt_lib_autogen/include"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/tensorrt_yolo/Makefile&quot;  VERBOSE=1 yolo_rt_lib"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/tensorrt_yolo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/tensorrt_yolo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/tensorrt_yolo/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="yolo_rt_lib/fast">
+				<Option output="/home/vt/projects/transtatDesktop/build/libyolo_rt_lib.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/tensorrt_yolo"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBUILD_YOLO_LIB"/>
+					<Add option="-DGFLAGS_IS_A_DLL=0"/>
+					<Add directory="/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/tensorrt_yolo"/>
+					<Add directory="/home/vt/projects/transtatDesktop/src/Detector/tensorrt_yolo"/>
+					<Add directory="/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/tensorrt_yolo/yolo_rt_lib_autogen/include"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/tensorrt_yolo/Makefile&quot;  VERBOSE=1 yolo_rt_lib/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/tensorrt_yolo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/tensorrt_yolo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/tensorrt_yolo/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="yolo_rt_lib_autogen">
+				<Option working_dir="/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/tensorrt_yolo"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/tensorrt_yolo/Makefile&quot;  VERBOSE=1 yolo_rt_lib_autogen"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/tensorrt_yolo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/tensorrt_yolo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/tensorrt_yolo/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/tensorrt_yolo/CMakeFiles/yolo_rt_lib.dir/yolo_rt_lib_generated_chunk.cu.o">
+			<Option target="yolo_rt_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/tensorrt_yolo/CMakeFiles/yolo_rt_lib.dir/yolo_rt_lib_generated_kernel.cu.o">
+			<Option target="yolo_rt_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/tensorrt_yolo/CMakeFiles/yolo_rt_lib.dir/yolo_rt_lib_generated_mish.cu.o">
+			<Option target="yolo_rt_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/tensorrt_yolo/CMakeFiles/yolo_rt_lib.dir/yolo_rt_lib_intermediate_link.o">
+			<Option target="yolo_rt_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/tensorrt_yolo/CMakeFiles/yolo_rt_lib.dir/yolo_rt_lib_intermediate_link.o.rule">
+			<Option target="yolo_rt_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/cmake-build-debug/src/Detector/tensorrt_yolo/yolo_rt_lib_autogen/mocs_compilation.cpp">
+			<Option target="yolo_rt_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/tensorrt_yolo/API.h">
+			<Option target="yolo_rt_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/tensorrt_yolo/calibrator.cpp">
+			<Option target="yolo_rt_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/tensorrt_yolo/calibrator.h">
+			<Option target="yolo_rt_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/tensorrt_yolo/chunk.cu">
+			<Option target="yolo_rt_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/tensorrt_yolo/chunk.h">
+			<Option target="yolo_rt_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/tensorrt_yolo/class_detector.cpp">
+			<Option target="yolo_rt_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/tensorrt_yolo/class_detector.h">
+			<Option target="yolo_rt_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/tensorrt_yolo/ds_image.cpp">
+			<Option target="yolo_rt_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/tensorrt_yolo/ds_image.h">
+			<Option target="yolo_rt_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/tensorrt_yolo/kernel.cu">
+			<Option target="yolo_rt_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/tensorrt_yolo/logging.h">
+			<Option target="yolo_rt_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/tensorrt_yolo/mish.cu">
+			<Option target="yolo_rt_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/tensorrt_yolo/mish.h">
+			<Option target="yolo_rt_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/tensorrt_yolo/plugin_factory.cpp">
+			<Option target="yolo_rt_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/tensorrt_yolo/plugin_factory.h">
+			<Option target="yolo_rt_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/tensorrt_yolo/trt_utils.cpp">
+			<Option target="yolo_rt_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/tensorrt_yolo/trt_utils.h">
+			<Option target="yolo_rt_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/tensorrt_yolo/yolo.cpp">
+			<Option target="yolo_rt_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/tensorrt_yolo/yolo.h">
+			<Option target="yolo_rt_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/tensorrt_yolo/yolo_config_parser.cpp">
+			<Option target="yolo_rt_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/tensorrt_yolo/yolo_config_parser.h">
+			<Option target="yolo_rt_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/tensorrt_yolo/yoloplugin_lib.cpp">
+			<Option target="yolo_rt_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/tensorrt_yolo/yoloplugin_lib.h">
+			<Option target="yolo_rt_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/tensorrt_yolo/yolov2.cpp">
+			<Option target="yolo_rt_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/tensorrt_yolo/yolov2.h">
+			<Option target="yolo_rt_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/tensorrt_yolo/yolov3.cpp">
+			<Option target="yolo_rt_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/tensorrt_yolo/yolov3.h">
+			<Option target="yolo_rt_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/tensorrt_yolo/yolov4.cpp">
+			<Option target="yolo_rt_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/tensorrt_yolo/yolov4.h">
+			<Option target="yolo_rt_lib"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/icons.qrc">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/support_images.qrc">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\Detector\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\Detector\darknet\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/darknet/cmake/FindCUDNN.cmake">
+			<Option virtualFolder="CMake Files\src\Detector\darknet\cmake\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/tensorrt_yolo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\Detector\tensorrt_yolo\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/tensorrt_yolo/cmake/FindCUDNN.cmake">
+			<Option virtualFolder="CMake Files\src\Detector\tensorrt_yolo\cmake\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Detector/tensorrt_yolo/cmake/FindTensorRT.cmake">
+			<Option virtualFolder="CMake Files\src\Detector\tensorrt_yolo\cmake\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/src/Tracker/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\Tracker\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ModuleLocation.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Sql/Qt5SqlConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Sql\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Sql/Qt5SqlConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Sql\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Charts/Qt5ChartsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Charts\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Charts/Qt5ChartsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Charts\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5PrintSupport/Qt5PrintSupportConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5PrintSupport\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5PrintSupport/Qt5PrintSupportConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5PrintSupport\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/lib/x86_64-linux-gnu/cmake/gflags/gflags-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\gflags\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/lib/x86_64-linux-gnu/cmake/gflags/gflags-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\gflags\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/lib/x86_64-linux-gnu/cmake/gflags/gflags-targets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\gflags\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/lib/x86_64-linux-gnu/cmake/gflags/gflags-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\gflags\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/local/lib/cmake/opencv4/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/local/lib/cmake/opencv4/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/local/lib/cmake/opencv4/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/vt/projects/transtatDesktop/../../../../usr/local/lib/cmake/opencv4/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
